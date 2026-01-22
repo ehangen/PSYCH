@@ -47,7 +47,7 @@ go_to_brightspace_if_yes <- function() {
   # Your Brightspace quiz URL (replace later)
   BrightspaceURL <- "https://mylearning.suny.edu/d2l/home/2404547"
   
-  if (selection == "Yes") {
+  if (selection == "Yes, I would like the completion code") {
     swirl::swirl_out("Great! You are being redirected to your Brightspace quiz. The completion code is: FirstOne!")
     browseURL(BrightspaceURL)
     return(TRUE)
