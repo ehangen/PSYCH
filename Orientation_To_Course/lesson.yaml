@@ -16,7 +16,7 @@
 - Class: text
   Output: First, I will provide you with Notes for the module. You can save these in a new R script document (click on icon in upper left corner to make a new file-->select R script).
 
-- Class: figure
+- Class: text
   Output: I recommend that as soon as the Notes pop up that you save them as "R guide" or a title that is useful for you. In future modules when notes pop up you can copy and paste them into your R guide.
 
   
