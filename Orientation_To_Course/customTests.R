@@ -39,6 +39,24 @@ getLog <- function(){
  getState()$log
 }
 
+go_to_brightspace_if_yes <- function() {
+  
+  # Get the student's selection from swirl
+  selection <- getState()$val
+  
+  # Your Brightspace quiz URL (replace later)
+  BrightspaceURL <- "https://mylearning.suny.edu/d2l/home/2404547"
+  
+  if (selection == "Yes") {
+    swirl::swirl_out("Great! You are being redirected to your Brightspace quiz. The completion code is: FirstOne!")
+    browseURL(BrightspaceURL)
+    return(TRUE)
+  } else {
+    swirl::swirl_out("You are done with this module!")
+    return(FALSE)
+  }
+}
+
 submit_log <- function(){
   selection <- getState()$val
   if(selection == "Yes"){
