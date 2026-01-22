@@ -30,24 +30,24 @@
   Output: The Notes script will look like this (hit enter to see).
 
 - Class: script
-  Output: You should see a R script open with notes starting with "Intro to R Notes". Please copy and paste these into your R reference guide. When you are ready, click to put your cursor back below here (in the console) and hit Enter to continue.
+  Output: STOP! You should now see a R script open with notes. Please copy and paste these notes into your R reference guide and save the your R guide. After you have updated and saved your guide, click to put your cursor back below here (in the console) and hit Enter to continue.
   Script: Notes.R
 
 - Class: text
-  Output: After that, the module will teach the lesson. As the swirl() instructions mentioned, if you see a ..., it means hit enter. If you're lost, getting the wrong answer will give you a hint. If you're still confused, you can use skip() to get the answer given to you.
+  Output: After you have gotten the notes, the module will teach the lesson. As the swirl() instructions mentioned, if you see a ..., it means hit enter. If you're lost, getting the wrong answer will give you a hint. If you're still confused, you can use skip() to get the answer given to you.
   
 - Class: text
   Output: The === bar represents your progress through the module, along with the percentage number to indicate how far into the module you are.
 
 - Class: cmd_question
-  Output: Some of the questions may be command-line questions. It would be best if you typed in your answers into the Console. For example, if I wanted you to calculate 2+2, I might say - take 2 and add 2 to it. Try that now. 
+  Output: Some of the questions may be command-line questions. It would be best if you typed in your answers into the Console. For example, I might ask you to calculate 2+2. Try that now, by typing 2+2 into the console and then hit enter.
   CorrectAnswer: 2+2
   Hint: Did you try adding the two numbers together?
   AnswerTests: omnitest(correctExpr='2+2')
   
 - Class: mult_question
-  Output: Other questions may be multiple-choice questions. To answer these, you can choose the number corresponding to the answer or type the answer out yourself. For example, the name of the course is PSYCH. What is the name of the course?
-  AnswerChoices: PSYCH; R Programming; Swirl; Don't Think Too Hard
+  Output: Other questions may be multiple-choice questions. To answer these, you can choose the number corresponding to the answer or type the answer out yourself. For example, the name of this SWIRL course is PSYCH. What is the name of the course?
+  AnswerChoices: PSYCH; R Programming; Statistics for Smarties; Don't Think Too Hard
   CorrectAnswer: PSYCH
   AnswerTests: omnitest(correctVal='PSYCH')
   Hint: Try typing PSYCH or choose the number that represents that answer. 
@@ -56,23 +56,18 @@
   Output: Finally, other questions will show scripts and ask you to fill in the correct answers. We use these when you need to see how coding is written in a script instead of in the Console.
 
 - Class: text
-  Output: We provide throughout the course all citations for any data we are using (all open access data) and any citations for any statistical choices we make.
-  
-- Class: text
-  Output: We recommend that you go through each module twice. First, play through the module. Please read the instructions, consider what it asks, and try your best. If you are submitting this for a course, submit that to your professor (that'll come up at the end).
+  Output: Please go through each module at least twice. For your first time, learn by going through the module. This will take time to read the instructions, consider what it asks, and trying your best to answer each question. When you finish the first time, make sure to copy and paste the completion code into Brightspace assignment so you get credit for completing the module.
 
 - Class: text
-  Output: After you've done it once, do it again. But, this time, have your notes open. Take your notes along with the notes provided. The Notes.R will include all of the code you will use (and more) but won't contextualize it in terms of the studies analyzed in the course. 
+  Output: Next, go through the entire module again. This time use your notes along with the R Guide to help you. Going through the module multiple times will help you remember what you have learned. The more repeats you do, the faster and better skilled you will become.
 
-- Class: text
-  Output: Once you have done it twice, review the Notes you made and see how the functions work outside of a psychology dataset. Run the lines of code, read the Notes, and see if you can understand at a deeper level what is happening. 
 
 - Class: text
   Output: And that's it! Combined with the Course Notes, your Notes, and a few swirl rounds, you'll be a pro in no time.
   
 - Class: mult_question
-  Output: Would you like to submit the log of this lesson to Google Forms so that your instructor may evaluate your progress?
-  AnswerChoices: Yes; No
+  Output: Is this your first time completing this module?
+  AnswerChoices: Yes, I would like the completion code; No, I have already submitted the completion code on Brightspace for this module
   CorrectAnswer: NULL
   AnswerTests: submit_log()
   Hint: hint
