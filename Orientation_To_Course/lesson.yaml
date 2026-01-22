@@ -2,32 +2,23 @@
   Course: PSYCH - Psychological Statistics You Can Handle
   Lesson: Orientation to Course
   Author: Kevin R. Carriere & Jason Kilgore
-  Type: Standard
-  Organization: Washington & Jefferson College
-  Version: 3.0.0
  
 #1
 - Class: text
-  Output: In this course, we hope to provide you with the knowledge and tools to perform fundamental analyses in R, including transforming data, visualizing data, and engaging in various types of hypothesis tests.
+  Output: Through these learning modules, you will practice and learn the tools to perform analyses in R to run common statisical analyses to test hypotheses and create data visuals.
 
 - Class: text
-  Output: We estimate that each module should take between 10 to 20 minutes to complete. However, to best assist your learning of R, we recommend that you take a bit longer.
+  Output: Each module should take between 10 to 20 minutes to complete. However, to best assist your learning of R, I recommend that you take longer.
 
 - Class: text
-  Output: Each module will follow the same basic formula.
+  Output: Each module will follow the same basic form.
   
 - Class: text
-  Output: First, we will present you with Notes for the module. These notes are designed to run whenever you need - they use datasets built within R, so you can turn to these notes if you ever need a refresher on how a function works.
+  Output: First, I will provide you with Notes for the module. You can save these in a new R script document (click on icon in upper left corner to make a new file-->select R script).
 
 - Class: figure
-  Output: We recommend that as soon as the Notes pop up, you click the top left corner of RStudio, where there is this icon (shown in the plot window).
-  Figure: figure1.R
-  FigureType: new
-  
-- Class: figure
-  Output: From there, choose the dropdown option that says R Script (it looks like this icon). 
-  Figure: figure2.R
-  FigureType: new
+  Output: I recommend that as soon as the Notes pop up that you save them as "R guide" or a title that is useful for you. In future modules when notes pop up you can copy and paste them into your R guide.
+
   
 - Class: text
   Output: We recommend you copy and paste the notes for the Module into this separate Script and save it as something memorable in a place you can find it. 
