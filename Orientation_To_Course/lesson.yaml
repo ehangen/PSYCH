@@ -30,9 +30,6 @@
   Output: The Notes script will look like this (hit enter to see).
 
 - Class: script
-  Output: Here are some notes for this module. When you've saved the notes in your own personal Notes R Script, type submit().
-  AnswerTests: script_results_identical('saved')
-  Hint: Make sure the last line in your script says saved <- "Y".
   Script: Notes.R
 
 - Class: text
