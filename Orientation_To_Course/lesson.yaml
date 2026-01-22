@@ -30,6 +30,7 @@
   Output: The Notes script will look like this (hit enter to see).
 
 - Class: script
+  Output: You should see a R script open with notes starting with "Intro to R Notes". Please copy and paste these into your R reference guide. When you are ready, click to put your cursor back below here (in the console) and hit Enter to continue.
   Script: Notes.R
 
 - Class: text
