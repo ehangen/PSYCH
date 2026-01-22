@@ -12,9 +12,3 @@
 # Then, use the pipe operator to say "and then"
 # then, call the mean() function to get its mean.
 c(4,5,6)  |> mean()
-
-# At the end of every set of notes, we will have this important line.
-# It is critical that you do not delete this from this Notes.R .
-
-# don't delete me!
-saved <- "Y"
