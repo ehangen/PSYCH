@@ -69,5 +69,5 @@
   Output: Is this your first time completing this module?
   AnswerChoices: Yes, I would like the completion code; No, I have already submitted the completion code on Brightspace for this module
   CorrectAnswer: NULL
-  AnswerTests: submit_log()
+  AnswerTests: go_to_brightspace_if_yes()
   Hint: hint
