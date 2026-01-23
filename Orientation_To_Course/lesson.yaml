@@ -30,7 +30,7 @@
 
 - Class: script
   AnswerTests: script_results_identical('saved')
-  Output: STOP! You should now see a R script open with notes. Please copy and paste these notes into your R reference guide and save the your R guide. After you have updated and saved your guide, click to put your cursor back below here (in the console) and hit Enter to continue.
+  Output: STOP! You should now see a R script open with notes. Please copy and paste these notes into your R reference guide and save the your R guide. After you have updated and saved your guide, click to put your cursor back below here (in the console) and type submit()
   Script: Notes.R
 
 - Class: text
