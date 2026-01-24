@@ -1,0 +1,36 @@
+- Class: meta
+  Course: PSYCH - Psychological Statistics You Can Handle
+  Lesson: Getting started
+  Author: Emily J. Hangen
+  Type: Standard
+  Organization: SUNY Brockport
+  Version: 2.4.5
+
+#1
+- Class: text
+  Output: Hello! Through these learning modules, you will practice and learn the tools to perform analyses in R to run common statisical analyses to test hypotheses and create data visuals.
+
+- Class: text
+  Output: Each module should take between 10 to 20 minutes to complete. However, to best assist your learning of R, I recommend that you take longer.
+
+- Class: text
+  Output: Each module will follow the same basic form.
+  
+- Class: text
+  Output: First, I will provide you with Notes for the module. You can save these in a new R script document (click on icon in upper left corner to make a new file-->select R script).
+
+- Class: text
+  Output: I recommend that as soon as the Notes pop up that you save them as "R guide" or a title that is useful for you. In future modules when notes pop up you can copy and paste them into your R guide.
+
+- Class: text
+  Output: We recommend you copy and paste the notes for the Module into this separate Script and save it as something memorable in a place you can find it. 
+
+- Class: text
+  Output: Once you've copied and pasted the Notes, the instructions will tell you to type submit() to move on to the module.
+  
+
+- Class: text
+  Output: After you have gotten the notes, the module will teach the lesson. As the swirl() instructions mentioned, if you see a ..., it means hit enter. If you're lost, getting the wrong answer will give you a hint. If you're still confused, you can use skip() to get the answer given to you.
+  
+- Class: text
+  Output: The === bar represents your progress through the module, along with the percentage number to indicate how far into the module you are.
